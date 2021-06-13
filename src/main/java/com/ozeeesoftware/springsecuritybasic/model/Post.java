@@ -1,6 +1,6 @@
 package com.ozeeesoftware.springsecuritybasic.model;
 
-import com.ozeeesoftware.springsecuritybasic.common.PostStatus;
+import com.ozeeesoftware.springsecuritybasic.constant.PostStatus;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;

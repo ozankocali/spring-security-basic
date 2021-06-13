@@ -1,6 +1,6 @@
 package com.ozeeesoftware.springsecuritybasic.service;
 
-import com.ozeeesoftware.springsecuritybasic.common.PostStatus;
+import com.ozeeesoftware.springsecuritybasic.constant.PostStatus;
 import com.ozeeesoftware.springsecuritybasic.model.Post;
 import com.ozeeesoftware.springsecuritybasic.repository.PostRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -8,7 +8,6 @@ import org.springframework.stereotype.Service;
 
 import java.security.Principal;
 import java.util.List;
-import java.util.Optional;
 import java.util.stream.Collectors;
 
 @Service

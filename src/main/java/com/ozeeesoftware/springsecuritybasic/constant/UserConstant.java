@@ -1,4 +1,4 @@
-package com.ozeeesoftware.springsecuritybasic.common;
+package com.ozeeesoftware.springsecuritybasic.constant;
 
 public class UserConstant {
     public static final String DEFAULT_ROLE = "ROLE_USER";

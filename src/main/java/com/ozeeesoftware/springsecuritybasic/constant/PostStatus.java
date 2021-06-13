@@ -1,4 +1,4 @@
-package com.ozeeesoftware.springsecuritybasic.common;
+package com.ozeeesoftware.springsecuritybasic.constant;
 
 public enum PostStatus {
     PENDING,APPROVED,REJECTED;
