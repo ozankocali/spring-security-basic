@@ -1,11 +1,12 @@
 package com.ozeeesoftware.springsecuritybasic.service;
 
-import com.ozeeesoftware.springsecuritybasic.constant.UserConstant;
+import com.ozeeesoftware.springsecuritybasic.common.UserConstant;
 import com.ozeeesoftware.springsecuritybasic.model.User;
 import com.ozeeesoftware.springsecuritybasic.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
+import org.springframework.web.bind.annotation.PostMapping;
 
 import java.security.Principal;
 import java.util.Arrays;
